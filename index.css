@@ -1,0 +1,186 @@
+body {
+  background-color: #0d1323;
+  display: grid;
+  grid-template-columns: 15% 55%;
+  justify-content: center;
+  margin-top: 45px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.userInfo {
+  background-color: #1d204b;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 8em;
+}
+
+.userImg {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 2em 0 1em 2em;
+}
+
+.jeremy {
+  background-color: #5746ea;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 20px;
+}
+
+.report {
+  margin-left: 2em;
+  color: #9e98fa;
+  margin-bottom: 3em;
+}
+
+.name {
+  color: #f1effc;
+  font-size: 28px;
+  margin: 5px;
+}
+
+.daily {
+  display: flex;
+  flex-direction: column;
+  margin: 0.6rem 0 1em 2rem;
+  color: #9e98fa;
+  line-height: 2.5rem;
+}
+
+.active {
+  color: #f1effc;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+}
+
+.cards {
+  /* background-color: #5746ea; */
+  /* color: #6669a3; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.8em;
+  margin: 8rem 0 5rem 3rem;
+}
+
+/* .card {
+  margin: 0 2rem 2rem 2rem;
+} */
+
+/* header of work */
+.orange {
+  background-color: #ff8b64;
+  display: flex;
+  justify-content: right;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+/* header of play */
+.blue {
+  background-color: #56c2e6;
+  display: flex;
+  justify-content: right;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+/* header of study */
+.pink {
+  background-color: #ff5e7d;
+  display: flex;
+  justify-content: right;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+/* header of exercise */
+.green {
+  background-color: #4bcf83;
+  /* width: 100%; */
+  display: flex;
+  justify-content: right;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.purple {
+  background-color: #7235d1;
+  display: flex;
+  justify-content: right;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.self-care,
+.excercise,
+.social,
+.work,
+.play,
+.study {
+  width: 100%;
+  position: relative;
+}
+
+.work,
+.play,
+.study {
+  margin-bottom: 150px;
+}
+
+.header {
+  background-color: #f1c75b;
+  /* width: 100%; */
+  display: flex;
+  justify-content: right;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.cardInfo {
+  background-color: #1d204b;
+  border-radius: 15px;
+  color: white;
+  position: absolute;
+  top: 42px;
+  width: 100%;
+  z-index: 1;
+}
+
+.head {
+  padding-left: 1.8rem;
+  color: #f1effc;
+}
+
+.ellipsis {
+  padding-right: 1.8rem;
+}
+.content {
+  padding-left: 1.8rem;
+}
+
+.hr {
+  font-weight: 200;
+  font-size: 32px;
+  margin: 17px 0;
+}
+
+.last {
+  color: #9e98fa;
+  font-size: 12px;
+}
+
+.dots {
+  color: #9e98fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
